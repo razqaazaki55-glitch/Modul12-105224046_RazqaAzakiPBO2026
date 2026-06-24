@@ -1,0 +1,250 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R ] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 663 >>
+stream
+BT /F2 20 Tf 212.5 722 Td (LAPORAN PRAKTIKUM) Tj ET
+BT /F2 16 Tf 177.5 692 Td (PEMROGRAMAN BERORIENTASI OBJEK) Tj ET
+BT /F2 14 Tf 269.5 664 Td (MODUL 12) Tj ET
+BT /F1 13 Tf 135 612 Td (Analisis Penerapan SOLID pada Sistem Pengisian KRS) Tj ET
+110 587 m 485 587 l S
+BT /F1 12 Tf 237.5 550 Td (Proyek: siakad-solid) Tj ET
+BT /F1 12 Tf 240.5 528 Td (Package: com.siakad) Tj ET
+BT /F1 11 Tf 184.75 486 Td (Disusun berdasarkan template LAPORAN2.pdf) Tj ET
+BT /F1 12 Tf 258.5 412 Td (Disusun oleh:) Tj ET
+BT /F2 12 Tf 228.5 390 Td (Mahasiswa Praktikum PBO) Tj ET
+BT /F1 12 Tf 201.5 167 Td (Program Studi Teknik Informatika) Tj ET
+BT /F1 12 Tf 285.5 145 Td (2026) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 663 >>
+stream
+BT /F2 20 Tf 212.5 722 Td (LAPORAN PRAKTIKUM) Tj ET
+BT /F2 16 Tf 177.5 692 Td (PEMROGRAMAN BERORIENTASI OBJEK) Tj ET
+BT /F2 14 Tf 269.5 664 Td (MODUL 12) Tj ET
+BT /F1 13 Tf 135 612 Td (Analisis Penerapan SOLID pada Sistem Pengisian KRS) Tj ET
+110 587 m 485 587 l S
+BT /F1 12 Tf 237.5 550 Td (Proyek: siakad-solid) Tj ET
+BT /F1 12 Tf 240.5 528 Td (Package: com.siakad) Tj ET
+BT /F1 11 Tf 184.75 486 Td (Disusun berdasarkan template LAPORAN2.pdf) Tj ET
+BT /F1 12 Tf 258.5 412 Td (Disusun oleh:) Tj ET
+BT /F2 12 Tf 228.5 390 Td (Mahasiswa Praktikum PBO) Tj ET
+BT /F1 12 Tf 201.5 167 Td (Program Studi Teknik Informatika) Tj ET
+BT /F1 12 Tf 285.5 145 Td (2026) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 3508 >>
+stream
+BT /F3 9 Tf 58 810 Td (Laporan Praktikum PBO - siakad-solid) Tj ET
+58 797 m 537 797 l S
+BT /F2 14 Tf 58 770 Td (BAB I PENDAHULUAN) Tj ET
+58 762 m 537 762 l S
+BT /F2 12 Tf 58 742 Td (1.1 Latar Belakang) Tj ET
+BT /F1 11 Tf 58 724 Td (Sistem Informasi Akademik \(SIAKAD\) merupakan aplikasi yang membantu proses akademik,) Tj ET
+BT /F1 11 Tf 58 709 Td (salah satunya pengisian Kartu Rencana Studi \(KRS\). Dalam praktik pengembangan perangkat) Tj ET
+BT /F1 11 Tf 58 694 Td (lunak, sistem seperti ini perlu dirancang agar mudah dikembangkan, diuji, dan diganti) Tj ET
+BT /F1 11 Tf 58 679 Td (komponennya tanpa mengganggu bagian lain.) Tj ET
+BT /F1 11 Tf 58 659 Td (Proyek siakad-solid menerapkan prinsip-prinsip SOLID pada kasus pengisian KRS. Aplikasi) Tj ET
+BT /F1 11 Tf 58 644 Td (memisahkan tanggung jawab validasi, penyimpanan data, pencetakan, jenis mata kuliah, dan) Tj ET
+BT /F1 11 Tf 58 629 Td (perhitungan UKT ke dalam kelas serta interface yang lebih spesifik.) Tj ET
+BT /F2 12 Tf 58 609 Td (1.2 Rumusan Masalah) Tj ET
+BT /F1 11 Tf 70 591 Td (- B) Tj ET
+BT /F1 11 Tf 70 576 Td (- B) Tj ET
+BT /F1 11 Tf 70 561 Td (- Bagaimana hasil pengujian sederhana dari program setelah dikompilasi dan) Tj ET
+BT /F1 11 Tf 70 546 Td (  dijalankan?) Tj ET
+BT /F2 12 Tf 58 531 Td (1.3 Tujuan) Tj ET
+BT /F1 11 Tf 70 513 Td (- M) Tj ET
+BT /F1 11 Tf 70 498 Td (- Menganalisis penerapan Single Responsibility, Open/Closed, Liskov Substitution,) Tj ET
+BT /F1 11 Tf 70 483 Td (  Interface Segregation, dan Dependency Inversion.) Tj ET
+BT /F1 11 Tf 70 468 Td (- Menyajikan hasil eksekusi program sebagai bukti bahwa aplikasi berjalan sesuai) Tj ET
+BT /F1 11 Tf 70 453 Td (  skenario.) Tj ET
+BT /F2 14 Tf 58 428 Td (BAB II PEMBAHASAN) Tj ET
+58 420 m 537 420 l S
+BT /F2 12 Tf 58 400 Td (2.1 Gambaran Umum Program) Tj ET
+BT /F1 11 Tf 58 382 Td (Program berada pada package com.siakad. Class utama SiakadApp membentuk objek) Tj ET
+BT /F1 11 Tf 58 367 Td (repository, validator, printer, manager, daftar mata kuliah, data KRS, dan strategi) Tj ET
+BT /F1 11 Tf 58 352 Td (perhitungan UKT. Setelah semua dependency disiapkan, method prosesKRS pada KRSManager) Tj ET
+BT /F1 11 Tf 58 337 Td (dipanggil untuk menjalankan alur utama.) Tj ET
+58 297 150 24 re S
+208 297 329 24 re S
+BT /F2 9.5 Tf 64 305 Td (Komponen) Tj ET
+BT /F2 9.5 Tf 214 305 Td (Peran) Tj ET
+58 273 150 24 re S
+208 273 329 24 re S
+BT /F1 9.5 Tf 64 281 Td (SiakadApp) Tj ET
+BT /F1 9.5 Tf 214 281 Td (Entry point aplikasi dan penyusun objek awal.) Tj ET
+58 249 150 24 re S
+208 249 329 24 re S
+BT /F1 9.5 Tf 64 257 Td (KRSManager) Tj ET
+BT /F1 9.5 Tf 214 257 Td (Koordinator proses validasi, hitung UKT, simpan data, dan cetak KRS.) Tj ET
+58 225 150 24 re S
+208 225 329 24 re S
+BT /F1 9.5 Tf 64 233 Td (KRSValidator) Tj ET
+BT /F1 9.5 Tf 214 233 Td (Memvalidasi prasyarat pengambilan mata kuliah.) Tj ET
+58 201 150 24 re S
+208 201 329 24 re S
+BT /F1 9.5 Tf 64 209 Td (KRSRepository) Tj ET
+BT /F1 9.5 Tf 214 209 Td (Kontrak penyimpanan data KRS.) Tj ET
+58 177 150 24 re S
+208 177 329 24 re S
+BT /F1 9.5 Tf 64 185 Td (KRSPrinter) Tj ET
+BT /F1 9.5 Tf 214 185 Td (Menangani proses pencetakan KRS ke format PDF.) Tj ET
+58 153 150 24 re S
+208 153 329 24 re S
+BT /F1 9.5 Tf 64 161 Td (UKTCalculationStrategy) Tj ET
+BT /F1 9.5 Tf 214 161 Td (Kontrak strategi perhitungan UKT.) Tj ET
+BT /F2 12 Tf 58 137 Td (2.2 Alur Kerja Aplikasi) Tj ET
+BT /F1 11 Tf 70 119 Td (1. S) Tj ET
+BT /F1 11 Tf 70 104 Td (2. D) Tj ET
+BT /F1 11 Tf 70 89 Td (3. D) Tj ET
+BT /F1 11 Tf 70 74 Td (4. M) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 3529 >>
+stream
+BT /F3 9 Tf 58 810 Td (Laporan Praktikum PBO - siakad-solid) Tj ET
+58 797 m 537 797 l S
+BT /F1 11 Tf 70 780 Td (5. KRSManager memvalidasi KRS, menghitung SKS dan UKT, menjalankan proses khusus) Tj ET
+BT /F1 11 Tf 70 765 Td (   praktikum, menyimpan data, lalu mencetak KRS.) Tj ET
+BT /F2 12 Tf 58 750 Td (2.3 Penerapan Prinsip SOLID) Tj ET
+BT /F1 11 Tf 58 732 Td (Single Responsibility Principle terlihat dari pemisahan tugas: KRSValidator hanya) Tj ET
+BT /F1 11 Tf 58 717 Td (memvalidasi, KRSPrinter hanya mencetak, repository hanya menyimpan, sedangkan KRSManager) Tj ET
+BT /F1 11 Tf 58 702 Td (mengoordinasikan proses bisnis.) Tj ET
+BT /F1 11 Tf 58 682 Td (Open/Closed Principle diterapkan melalui interface KRSRepository dan) Tj ET
+BT /F1 11 Tf 58 667 Td (UKTCalculationStrategy. Sistem dapat menambah repository baru atau strategi UKT baru) Tj ET
+BT /F1 11 Tf 58 652 Td (tanpa mengubah KRSManager.) Tj ET
+BT /F1 11 Tf 58 632 Td (Liskov Substitution Principle terlihat saat KelasTeori, KelasPraktikum, dan KelasKKN) Tj ET
+BT /F1 11 Tf 58 617 Td (dapat diperlakukan sebagai MataKuliah. KRSManager cukup membaca kode, nama, dan SKS) Tj ET
+BT /F1 11 Tf 58 602 Td (melalui kontrak MataKuliah.) Tj ET
+BT /F1 11 Tf 58 582 Td (Interface Segregation Principle tampak pada MataKuliahPraktikum yang memperluas) Tj ET
+BT /F1 11 Tf 58 567 Td (MataKuliah hanya untuk kelas yang membutuhkan operasi praktikum, seperti) Tj ET
+BT /F1 11 Tf 58 552 Td (cekPeralatanPraktikum dan alokasiAsistenLab.) Tj ET
+BT /F1 11 Tf 58 532 Td (Dependency Inversion Principle diterapkan karena KRSManager bergantung pada abstraksi) Tj ET
+BT /F1 11 Tf 58 517 Td (KRSRepository dan UKTCalculationStrategy, bukan implementasi penyimpanan atau) Tj ET
+BT /F1 11 Tf 58 502 Td (perhitungan tertentu.) Tj ET
+BT /F2 14 Tf 58 472 Td (BAB III IMPLEMENTASI DAN HASIL) Tj ET
+58 464 m 537 464 l S
+BT /F2 12 Tf 58 444 Td (3.1 Struktur File) Tj ET
+58 237 479 194 re S
+BT /F3 9 Tf 68 414 Td (src/com/siakad/SiakadApp.java) Tj ET
+BT /F3 9 Tf 68 401 Td (src/com/siakad/KRSManager.java) Tj ET
+BT /F3 9 Tf 68 388 Td (src/com/siakad/KRSRepository.java) Tj ET
+BT /F3 9 Tf 68 375 Td (src/com/siakad/CloudNoSQLKRSRepository.java) Tj ET
+BT /F3 9 Tf 68 362 Td (src/com/siakad/MySQLKRSRepository.java) Tj ET
+BT /F3 9 Tf 68 349 Td (src/com/siakad/UKTCalculationStrategy.java) Tj ET
+BT /F3 9 Tf 68 336 Td (src/com/siakad/MBKMUKTStrategy.java) Tj ET
+BT /F3 9 Tf 68 323 Td (src/com/siakad/RegulerUKTStrategy.java) Tj ET
+BT /F3 9 Tf 68 310 Td (src/com/siakad/BidikmisiUKTStrategy.java) Tj ET
+BT /F3 9 Tf 68 297 Td (src/com/siakad/MataKuliah.java) Tj ET
+BT /F3 9 Tf 68 284 Td (src/com/siakad/MataKuliahPraktikum.java) Tj ET
+BT /F3 9 Tf 68 271 Td (src/com/siakad/KelasTeori.java) Tj ET
+BT /F3 9 Tf 68 258 Td (src/com/siakad/KelasPraktikum.java) Tj ET
+BT /F3 9 Tf 68 245 Td (src/com/siakad/KelasKKN.java) Tj ET
+BT /F2 12 Tf 58 222 Td (3.2 Potongan Kode Utama) Tj ET
+58 93 479 116 re S
+BT /F3 9 Tf 68 192 Td (KRSRepository repository = new CloudNoSQLKRSRepository\(\);) Tj ET
+BT /F3 9 Tf 68 179 Td (KRSValidator validator = new KRSValidator\(\);) Tj ET
+BT /F3 9 Tf 68 166 Td (KRSPrinter printer = new KRSPrinter\(\);) Tj ET
+BT /F3 9 Tf 68 153 Td (KRSManager manager = new KRSManager\(repository, validator, printer\);) Tj ET
+BT /F3 9 Tf 68 140 Td () Tj ET
+BT /F3 9 Tf 68 127 Td (DataKRS krs = new DataKRS\("MHS12345", mkMahasiswa\);) Tj ET
+BT /F3 9 Tf 68 114 Td (UKTCalculationStrategy skemaMBKM = new MBKMUKTStrategy\(\);) Tj ET
+BT /F3 9 Tf 68 101 Td (manager.prosesKRS\(krs, skemaMBKM\);) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 2304 >>
+stream
+BT /F3 9 Tf 58 810 Td (Laporan Praktikum PBO - siakad-solid) Tj ET
+58 797 m 537 797 l S
+BT /F2 12 Tf 58 780 Td (3.3 Hasil Eksekusi) Tj ET
+BT /F1 11 Tf 58 762 Td (Program berhasil dikompilasi menggunakan perintah javac dan dijalankan menggunakan java) Tj ET
+BT /F1 11 Tf 58 747 Td (-cp bin com.siakad.SiakadApp. Output menunjukkan total SKS sebesar 8 dan tagihan UKT) Tj ET
+BT /F1 11 Tf 58 732 Td (skema MBKM sebesar Rp 3.400.000,00.) Tj ET
+58 588 479 129 re S
+BT /F3 9 Tf 68 700 Td (--- Memulai Sistem Pengisian KRS ---) Tj ET
+BT /F3 9 Tf 68 687 Td (Memvalidasi prasyarat pengambilan mata kuliah...) Tj ET
+BT /F3 9 Tf 68 674 Td (Total SKS: 8) Tj ET
+BT /F3 9 Tf 68 661 Td (Tagihan UKT: Rp 3400000,00) Tj ET
+BT /F3 9 Tf 68 648 Td (Mengecek ketersediaan peralatan lab untuk: Praktikum Algoritma) Tj ET
+BT /F3 9 Tf 68 635 Td (Mengalokasikan asisten lab untuk: Praktikum Algoritma) Tj ET
+BT /F3 9 Tf 68 622 Td (Menyimpan KRS Mhs MHS12345 ke [Cloud NoSQL] secara asinkron...) Tj ET
+BT /F3 9 Tf 68 609 Td (Mencetak KRS mahasiswa MHS12345 ke format [PDF]...) Tj ET
+BT /F3 9 Tf 68 596 Td (--- Proses KRS Selesai ---) Tj ET
+BT /F2 14 Tf 58 563 Td (BAB IV PENUTUP) Tj ET
+58 555 m 537 555 l S
+BT /F2 12 Tf 58 535 Td (4.1 Kesimpulan) Tj ET
+BT /F1 11 Tf 58 517 Td (Aplikasi siakad-solid berhasil memodelkan proses pengisian KRS dengan pembagian tanggung) Tj ET
+BT /F1 11 Tf 58 502 Td (jawab yang jelas. Penggunaan interface dan strategi membuat program lebih fleksibel) Tj ET
+BT /F1 11 Tf 58 487 Td (ketika diperlukan penggantian repository, penambahan skema UKT, atau penambahan jenis) Tj ET
+BT /F1 11 Tf 58 472 Td (mata kuliah.) Tj ET
+BT /F1 11 Tf 58 452 Td (Berdasarkan hasil eksekusi, program dapat memproses tiga mata kuliah dengan total 8 SKS,) Tj ET
+BT /F1 11 Tf 58 437 Td (menghitung tagihan UKT skema MBKM, menjalankan kebutuhan khusus praktikum, menyimpan) Tj ET
+BT /F1 11 Tf 58 422 Td (data ke repository cloud, dan mensimulasikan pencetakan KRS.) Tj ET
+BT /F2 12 Tf 58 402 Td (4.2 Saran) Tj ET
+BT /F1 11 Tf 70 384 Td (- M) Tj ET
+BT /F1 11 Tf 70 369 Td (- M) Tj ET
+BT /F1 11 Tf 70 354 Td (- M) Tj ET
+BT /F1 11 Tf 70 339 Td (- M) Tj ET
+BT /F2 14 Tf 58 314 Td (DAFTAR PUSTAKA) Tj ET
+58 306 m 537 306 l S
+BT /F1 11 Tf 70 286 Td (- M) Tj ET
+BT /F1 11 Tf 70 271 Td (- D) Tj ET
+BT /F1 11 Tf 70 256 Td (- S) Tj ET
+endstream
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000143 00000 n 
+0000000213 00000 n 
+0000000288 00000 n 
+0000000356 00000 n 
+0000000502 00000 n 
+0000001215 00000 n 
+0000001361 00000 n 
+0000002074 00000 n 
+0000002222 00000 n 
+0000005782 00000 n 
+0000005930 00000 n 
+0000009511 00000 n 
+0000009659 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+12015
+%%EOF
